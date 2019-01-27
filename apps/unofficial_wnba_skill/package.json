@@ -1,0 +1,22 @@
+{
+  "name": "unofficial_wnba_skill",
+  "version": "1.0.0",
+  "description": "The Unofficial WNBA Skill for Alexa",
+  "main": "index.js",
+  "author": "Hannah Schwager",
+  "license": "MIT",
+  "alexa": {
+    "applicationId": "amzn1.ask.skill.4ec2c2b6-b45c-427c-8252-5e495061d11e"
+  },
+  "dependencies": {
+    "alexa-app": "^4.2.2",
+    "express": "^4.14.0",
+    "request": "^2.88.0",
+    "sqlite3": "^4.0.2",
+    "sequelize": "^4.39.0",
+    "dateformat": "^3.0.3",
+    "ssml-builder": "^0.4.3",
+    "amazon-date-parser": "^0.2.0",
+    "us-state-codes": "^1.1.2"
+  }
+}
