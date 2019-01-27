@@ -1,0 +1,19 @@
+{
+  "name": "unofficial_wnba_skill",
+  "version": "1.0.0",
+  "description": "Alexa Skill for WNBA information.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "alexa-app-server": "^2.3.1",
+    "dateformat": "^3.0.3",
+    "ssml-builder": "^0.4.3",
+    "amazon-date-parser": "^0.2.0",
+    "us-state-codes": "^1.1.2"
+  },
+  "engines": {
+    "node": "6.9.1"
+  }
+}
